@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "lit up white",
+      "identifier": "palette-replace.lit-up-white-identifier",
+      "script": "./my-command-1.js",
+      "shortcut": "cmd shift ."
+    },
+    {
+      "name": "unlit white",
+      "identifier": "palette-replace.unlit-white-identifier",
+      "script": "./my-command-2.js",
+      "shortcut": "cmd shift ,"
+    },
+    {
+      "name": "lit up color",
+      "identifier": "palette-replace.lit-up-color-identifier",
+      "script": "./my-command-3.js",
+      "shortcut": "cmd shift alt ."
+    },
+    {
+      "name": "unlit color",
+      "identifier": "palette-replace.unlit-color-identifier",
+      "script": "./my-command-4.js",
+      "shortcut": "cmd shift alt ,"
+    },
+    {
+      "name": "custom color replace",
+      "identifier": "palette-replace.custom-identifier",
+      "script": "./my-command-custom.js",
+      "shortcut": "cmd shift alt /"
+    }
+  ],
+  "menu": {
+    "title": "palette-replace",
+    "items": [
+      "palette-replace.lit-up-white-identifier",
+      "palette-replace.unlit-white-identifier",
+      "palette-replace.lit-up-color-identifier",
+      "palette-replace.unlit-color-identifier",
+      "palette-replace.custom-identifier"
+    ]
+  }
+}
