@@ -4,7 +4,7 @@ import command_util from './command_util'
 
 export default function() {
   sketch.UI.getInputFromUser(
-  	"Enter custom replace palette", { initialValue: 'example : BA869B:BA34FF,FFFFFF:EAEAEA' },
+  	"Enter custom replace palette", { initialValue: 'FFFFFF:000000,000000:FFFFFF' },
   	(err, value) => {
   		if (err) {
         console.log('custom color replace cancelled')

@@ -48,7 +48,9 @@ export const litJsonColor = {
     "533D68" : "1A0422",
     "243956" : "061F2A",
     "1F1F1F" : "000000",
-    "8B4A60" : "561212"
+    "8B4A60" : "561212",
+    "7FB4FA" : "8BDAFF",
+    "2BA2FC" : "3AC0FF"
 
 }
 
